@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body
+    class="border-none py-8 md:p-16 antialiased bg-[#f2ebe3] flex flex-col items-center justify-center text-[15px]"
+  >
+    <section
+      class="main-section bg-white w-[375px] md:w-[1000px] md:flex h-[690px] md:max-h-[600px] gap-x-2 shadow-gray-500 shadow-md rounded-xl"
+    >
+      <div
+        class="image h-[50%] md:h-full w-full md:w-[50%] rounded-t-xl md:rounded-xl md:rounded-r-none"
+      ></div>
+      <div
+        class="content h-[50%] md:h-full w-full md:w-[50%] p-6 md:px-16 md:py-8 bg-[#ffffff] rounded-b-xl md:rounded-xl"
+      >
+        <h2
+          class="tracking-[10px] semi-heading uppercase font-semibold text-[#6c7289] text-xl md:text-2xl mb-2 md:mb-6"
+        >
+          Perfume
+        </h2>
+        <h1
+          class="heading md:w-[85%] font-bold text-4xl md:text-5xl text-[#1c232b] mb-2 md:mb-6"
+        >
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p
+          class="text-base md:text-xl tracking-wide text-[#6c7289] mb-2 md:mb-6"
+        >
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div
+          class="price font-bold text-4xl md:text-5xl text-[#3c8067] mb-4 md:mb-8"
+        >
+          $149.99
+          <sup
+            class="discount text-sm md:text-xl text-[#6c7289] mb-2 line-through super"
+            >$169.99</sup
+          >
+        </div>
+        <a
+          class="btn p-3 md:p-5 bg-[#3c8067] text-white font-semibold w-full flex items-center justify-center rounded-md gap-x-2 border-none shadow-sm shadow-[#3c8067]"
+          href="#"
+        >
+          <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+              fill="#FFF"
+            /></svg
+          >Add to Cart
+        </a>
+      </div>
+    </section>
+    <div class="attribution mt-4 md:mt-6 text-center text-base font-semibold">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-[#3c8067]"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-[#3c8067]">Tech-Rocket</a>.
+    </div>
+  </body>
+</html>
